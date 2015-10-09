@@ -55,6 +55,6 @@ void showDice(int num){
                    "+-------+\n");
             break;
         default:
-        printf("Something went wrong!\n");
+        printf("Uh-Oh! Something went wrong!\n");
     }
 }
