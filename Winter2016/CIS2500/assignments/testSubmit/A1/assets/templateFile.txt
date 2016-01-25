@@ -1,0 +1,12 @@
+Dear {recipName},
+I understand that we haven’t spoken since I ran away with {friend}…
+
+But I thought you should know that we have a son.
+His name is {sonName}.  He has your {feature}.
+
+Sincerely,
+{sendName}
+
+I have added some additional text to this document.
+
+If any of you know the where about of my {daugter} that would be {awesome}.
