@@ -88,18 +88,19 @@ int main(int argc, char **argv)
                 /*This is the finished key word*/
                 printf("%s=%s\n",keyWord,getValue(keyWord));
                 
-                /*
+                
                 input = replace_str(input, keyWord, getValue(keyWord),start);
-                if(input[z] == '{'){bracketSpot = z;}
+                /*if(input[z] == '{'){bracketSpot = z;}
                 input = replace_str(input,"{", "cow",bracketSpot);
                 
                 if(input[z] == '}'){bracketSpot = z;}
-                input = replace_str(input, "}","b",bracketSpot);
-                 */
+                input = replace_str(input, "}","b",bracketSpot);*/
+                
             }
             //printf("%c\n", input[start]);
-            //fprintf(outFile, "%s", input);
+            
         }
+        fprintf(outFile, "%s", input);
     }
     
     fclose(templateFile);

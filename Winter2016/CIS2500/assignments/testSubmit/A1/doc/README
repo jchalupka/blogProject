@@ -9,10 +9,10 @@ Compilation
 ***********
 
 In order to compile the program use Terminal to
-navigate inside the directory containing the program
- file (&&&&&).  Then use the following command:
+navigate inside the scr directory containing the program
+ file (main.c).  Then use the following command:
 
-gcc &&&&&& -std=c99 -Wall
+gcc main.c -std=c99 -Wall
 
 *****
 Usage
@@ -22,7 +22,7 @@ To run the program, while inside the same directory as
 before which will now contain an a.out executable file,
 use this command:
 
-./a.out templateFile.txt dataFile.txt outputFile.txt
+./a.out ../assets/templateFile.txt  ../assets/dataFile.txt ../assets/outputFile.txt 
 
 *******
 Testing
